@@ -1,0 +1,2 @@
+#!/bin/sh
+open "https://github.com/ryamakuchi/github-template/compare/master...$(git rev-parse --abbrev-ref HEAD)?template=UpdateData.md"
